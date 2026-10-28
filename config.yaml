@@ -1,0 +1,55 @@
+queries:
+  - roofing
+  - plumbing
+  - hvac
+  - pool clean
+  - landscaping
+  - lawn
+  - painting
+  - garage door
+  - fencing
+  - concrete
+  - pest
+  - window clean
+  - dentist
+  - dentistry
+  - course
+  - training
+  - coaching
+  - tutoring
+  - bootcamp
+  - education
+  - staffing
+  - human resources
+  - recruitment
+  - headhunters
+  - job
+  - jobs
+
+regions:
+  - US
+  - GB
+  - CA
+  - FR
+  - AE
+  - IE
+  - AU
+  - NZ
+  - SG
+  - ZA
+  - MT
+
+max_per_day: 20
+combos_per_day: 6
+date_from_days: 15
+apify_max_results: 20
+serper_num_results: 10
+request_delay_seconds: 0.7
+apify_run_delay_seconds: 3
+probe_request_delay_seconds: 0.5
+
+sheet_title: "Blue Collar Leads"
+share_email: ""
+
+rotation_file: rotation_state.json
+results_file: results.jsonl
